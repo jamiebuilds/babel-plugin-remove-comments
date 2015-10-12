@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-remove-comments",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Remove comments.",
   "repository": "thejameskyle/babel-plugin-remove-comments",
   "license": "MIT",
