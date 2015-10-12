@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-remove-comments",
+  "version": "0.0.0",
+  "description": "Remove comments.",
+  "repository": "thejameskyle/babel-plugin-remove-comments",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "devDependencies": {
+    "babel": "^5.6.0"
+  },
+  "scripts": {
+    "build": "babel-plugin build",
+    "push": "babel-plugin publish",
+    "test": "babel-plugin test"
+  },
+  "keywords": [
+    "babel-plugin"
+  ]
+}
