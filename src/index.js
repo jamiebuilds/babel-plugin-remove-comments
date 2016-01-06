@@ -1,14 +1,13 @@
-/* eslint no-unused-vars:0 */
-export default function ({Plugin, types: t}) {
-  return new Plugin('remove-comments', {
+export default function({types: t}) {
+  return {
     visitor: {
-      Program(node, parent, path, file) {
-        file.ast.comments = [];
-      },
-      enter(node) {
-        node.leadingComments = null;
-        node.trailingComments = null;
+      Program(path, state) {
+        path.traverse({
+          enter(path) {
+            t.removeComments(path.node);
+          }
+        });
       }
     }
-  });
+  };
 }
