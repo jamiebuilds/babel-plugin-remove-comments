@@ -1,3 +1,5 @@
+## [DEPRECATED] Use `comments: false` in your Babel config
+
 # babel-plugin-remove-comments
 
 Remove comments.
